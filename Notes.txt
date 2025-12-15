@@ -122,3 +122,57 @@ Collects all keyword arguments into a dictionary.
 🔹 Why used in decorators?
 
 Because a decorator must work on any function, no matter how many arguments it has.
+
+📝 POSTMAN QUICK NOTES (VERY SHORT)
+
+API base URL
+http://127.0.0.1:8000/api/products/
+
+✅ GET (Fetch data)
+All data
+Open Postman
+Method → GET
+Enter URL → /api/products/
+Click Send
+
+For Single data
+GET /api/products/1/
+
+✅ POST (Add data)
+Without image
+Method → POST
+URL → /api/products/
+Body → raw → JSON
+{"name":"Apple","price":"150"}
+Send
+
+With image
+Method → POST
+Body → form-data
+Fields → name, price (Text), image (File)
+Send
+
+✅ PUT (Update full data)
+Method → PUT
+URL → /api/products/1/
+Body → form-data
+Send all fields again
+
+✅ PATCH (Update one field)
+Method → PATCH
+URL → /api/products/1/
+Body → raw → JSON
+{"price":"199"}
+Send
+
+✅ DELETE (Remove data)
+Method → DELETE
+URL → /api/products/1/
+Click Send
+
+🧠 ONE-LINE MEMORY
+GET = read
+POST = create
+PUT = full update
+PATCH = partial update
+DELETE = remove
