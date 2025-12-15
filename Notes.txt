@@ -117,6 +117,13 @@ Collects all keyword arguments into a dictionary.
 🔹 Why used in decorators?
 Because a decorator must work on any function, no matter how many arguments it has.
 
+List comprehension is a short and easy way to create a new list from an existing list or iterable in one single line of code.
+
+👉 It is used to replace loops and make the code shorter, cleaner, and faster.
+
+What is super() in Python?
+super() is used to call the parent class’s constructor or method from the child class.
+
 📝 POSTMAN QUICK NOTES (VERY SHORT)
 
 API base URL
