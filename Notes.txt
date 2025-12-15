@@ -1,0 +1,124 @@
+# A module is a collection of functions
+# A library is a collection of modules
+# A framework is a collection of libraries
+
+The full form of CSRF is Cross-Site Request Forgery
+
+The full form of JSON javascript object notations
+
+The full form of JWT Json web token
+
+npm create vite@latest   for create react vite app
+
+oops stand for object oriented programing
+# oops is faster
+
+# classes is structure  [blue print] [you can not see you can not feel]
+# object is instence of class [you can see you can feel]
+# class and object use for create a libraries and use for backend
+
+# class is connection of data member and functions / methods
+# object is instense of that perticular class
+
+
+all(), filter(), get() These are called Django ORM QuerySet Methods.
+
+| Method         | Use When                          |
+| -------------- | --------------------------------- |
+| *all()*      | You need all records              |
+| *filter()*   | You expect multiple results       |
+| *get()*      | Only ONE result must match        |
+| *exclude()*  | You want to remove certain values |
+| *order_by()* | You need sorting                  |
+| *values()*   | You need specific fields only     |
+| *create()*   | Insert new row                    |
+| *update()*   | Update multiple rows              |
+| *delete()*   | Delete rows                       |
+| *count()*    | Count results                     |
+| *exists()*   | Just check presence (fastest)     |
+| *distinct()* | Remove duplicates                 |
+
+
+⚡ Extra Powerful Filters You Should Know
+startswith
+User.objects.filter(username__startswith="Nik")
+
+contains
+User.objects.filter(email__contains="gmail")
+
+lt / gt (less than / greater than)
+Product.objects.filter(price__gt=500)
+
+in
+User.objects.filter(id__in=[1,2,3])
+
+
+
+✔ Simple Example (Easy to Understand)
+
+Suppose you have a Student model:
+
+class Student(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+
+Get all students
+Student.objects.all()
+
+Get 18+ students
+Student.objects.filter(age__gte=18)
+
+Get only one student
+Student.objects.get(id=1)
+
+Create student
+Student.objects.create(name="Nikhil", age=20)
+
+Update age
+Student.objects.filter(name="Nikhil").update(age=21)
+
+Delete
+Student.objects.get(id=1).delete()
+
+simple example and explanation of decorators
+
+# Q.6 Create decorator 
+
+# The wrapper is simply: A new function that wraps around your original function.
+
+# What is *args? *args = all positional arguments ✔ *args accepts ANY type of positional arguments (numbers, strings, lists, objects… anything)
+
+# What is **kwargs? **kwargs = all keyword arguments **kwargs accepts ANY type of keyword arguments (values can also be anything — numbers, strings, lists, functions) 
+
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before function runs")
+        
+        result = func(*args, **kwargs)
+        
+        print("After function runs")
+        return result
+    
+    return wrapper
+@my_decorator
+def greet():
+    print("Hello!")
+
+greet()
+
+Final Summary
+🔹 wrapper
+
+A function inside decorator that adds extra behavior before/after your real function.
+
+🔹 *args
+
+Collects all positional arguments into a tuple.
+
+🔹 **kwargs
+
+Collects all keyword arguments into a dictionary.
+
+🔹 Why used in decorators?
+
+Because a decorator must work on any function, no matter how many arguments it has.
