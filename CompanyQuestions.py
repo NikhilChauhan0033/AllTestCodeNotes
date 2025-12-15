@@ -61,6 +61,30 @@ li2 = [5,6,7,8]
 li1.extend(li2)
 print(li1)
 
+arr = [1,2,0,3,4,5,0,0,6,7,8,0]
+
+# output [1, 2, 3, 4, 5, 6, 7, 8, 0, 0, 0, 0]
+
+arr1 = []
+arr2 = []
+
+for i in arr:
+    if i == 0:
+        arr2.append(i)
+    else:
+        arr1.append(i)
+
+print(arr1)
+print(arr2)
+
+# for this output [1, 2, 3, 4, 5, 6, 7, 8, 0, 0, 0, 0] use this
+arr1.extend(arr2)
+print(arr1)
+
+# for this output [0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8] use this
+arr2.extend(arr1)
+print(arr2)
+
 # Q.6 Create decorator 
 
 # The wrapper is simply: A new function that wraps around your original function.
@@ -132,10 +156,26 @@ print(view_profile(user2))  # denied
 # Metaphi company ask me questions
 
 # Q.1 write query to get the name of the employee who has the highest salary
+# SELECT name, salary
+# FROM employees
+# ORDER BY salary DESC
+# LIMIT 1;
+
+# Another way 
+
+# SELECT name, salary
+# FROM employees
+# WHERE salary = (SELECT MAX(salary) FROM employees);
+
 
 # Q.2 write code for to get highest number from unorder list
 
 # Q.3 what is diffrenece between blank=True and null=True
+
+# | Option         | Affects                | Meaning                       |
+# | -------------- | ---------------------- | ----------------------------- |
+# | **null=True**  | Database               | Allows NULL value in database |
+# | **blank=True** | Forms/Admin validation | Field can be empty in forms   |
 
 # Q.4 how you can create model for like there is many post and many likes also for one post many likes create schema for model 
 

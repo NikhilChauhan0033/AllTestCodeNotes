@@ -17,7 +17,7 @@ oops stand for object oriented programing
 # object is instence of class [you can see you can feel]
 # class and object use for create a libraries and use for backend
 
-# class is connection of data member and functions / methods
+# class is collection of data member and functions / methods
 # object is instense of that perticular class
 
 
@@ -53,7 +53,6 @@ in
 User.objects.filter(id__in=[1,2,3])
 
 
-
 ✔ Simple Example (Easy to Understand)
 
 Suppose you have a Student model:
@@ -82,8 +81,6 @@ Student.objects.get(id=1).delete()
 
 simple example and explanation of decorators
 
-# Q.6 Create decorator 
-
 # The wrapper is simply: A new function that wraps around your original function.
 
 # What is *args? *args = all positional arguments ✔ *args accepts ANY type of positional arguments (numbers, strings, lists, objects… anything)
@@ -107,20 +104,17 @@ def greet():
 greet()
 
 Final Summary
-🔹 wrapper
 
+🔹 wrapper
 A function inside decorator that adds extra behavior before/after your real function.
 
 🔹 *args
-
 Collects all positional arguments into a tuple.
 
 🔹 **kwargs
-
 Collects all keyword arguments into a dictionary.
 
 🔹 Why used in decorators?
-
 Because a decorator must work on any function, no matter how many arguments it has.
 
 📝 POSTMAN QUICK NOTES (VERY SHORT)
