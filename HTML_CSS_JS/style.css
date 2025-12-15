@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+
+/* div{
+    width: 150px;
+    height: 150px;
+    background: #000;
+    transition: all 2s ease-in;
+    transform: rotate(0deg);
+    animation-name: myAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+div:hover{
+    background-color: aqua;
+    transform: rotate(30deg);
+    transform: skew(30deg);
+    transform: translate(30px);
+    transform: scale(2);
+}
+
+@keyframes myAnimate {
+    0%{
+        background-color: red;
+        transform: translate(0px);
+    }
+       
+        100%{
+        background-color: blue;
+        transform: translate(60px);
+    }
+}
+
+ */
