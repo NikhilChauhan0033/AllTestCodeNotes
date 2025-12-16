@@ -59,17 +59,3 @@ SELECT *
 FROM employees
 WHERE salary >= 10000 AND salary <= 50000;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
