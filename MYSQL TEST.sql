@@ -58,4 +58,3 @@ WHERE salary BETWEEN 10000 AND 50000;
 SELECT *
 FROM employees
 WHERE salary >= 10000 AND salary <= 50000;
-
