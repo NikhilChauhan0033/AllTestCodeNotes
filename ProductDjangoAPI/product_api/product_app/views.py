@@ -51,6 +51,10 @@ class ProdcutListCreateAPI(generics.ListCreateAPIView):
         return queryset
     
 
+class ProductRetrieveUpdateDestroyAPI(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
 
 class ProductAggregationAPI(APIView):
     def get(self, request):
