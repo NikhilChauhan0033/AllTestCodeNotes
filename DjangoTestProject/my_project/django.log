@@ -1,0 +1,764 @@
+INFO 2026-01-06 14:41:37,198 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:41:48,823 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_project\settings.py changed, reloading.
+INFO 2026-01-06 14:41:49,865 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:42:03,455 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:42:04,354 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:42:10,766 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:42:11,856 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:42:36,564 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:42:37,297 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:43:01,079 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:43:01,869 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:43:08,363 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:43:09,103 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:44:58,903 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:44:59,676 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:45:20,726 views Authenticated user nikhil tried to access login page
+INFO 2026-01-06 14:45:20,733 log "GET /login/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:45:20,741 views Dashboard accessed by user: nikhil
+INFO 2026-01-06 14:45:20,750 log "GET /dashboard/ HTTP/1.1" 200 129
+INFO 2026-01-06 14:46:18,608 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:46:19,435 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:46:21,903 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-06 14:46:22,749 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:46:56,645 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-06 14:46:57,565 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:47:01,773 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-06 14:47:02,583 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:47:13,865 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-06 14:47:14,626 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:47:16,835 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-06 14:47:17,617 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:47:20,788 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-06 14:47:21,588 autoreload Watching for file changes with StatReloader
+INFO 2026-01-06 14:47:46,194 views Dashboard accessed by user: nikhil
+INFO 2026-01-06 14:47:46,207 log "GET /dashboard/ HTTP/1.1" 200 345
+INFO 2026-01-06 14:47:52,645 views User logged out: nikhil
+INFO 2026-01-06 14:47:52,655 log "POST /logout/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:47:52,661 log "GET /login/ HTTP/1.1" 200 535
+WARNING 2026-01-06 14:48:05,758 views Unauthenticated user tried to access dashboard
+INFO 2026-01-06 14:48:05,759 log "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:48:05,763 log "GET /login/ HTTP/1.1" 200 534
+WARNING 2026-01-06 14:48:23,311 views Failed login attempt for username: nikhil
+INFO 2026-01-06 14:48:23,312 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:48:23,315 log "GET /login/ HTTP/1.1" 200 525
+INFO 2026-01-06 14:48:44,130 views User logged in successfully: nikhil
+INFO 2026-01-06 14:48:44,135 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:48:44,147 views Dashboard accessed by user: nikhil
+INFO 2026-01-06 14:48:44,148 log "GET /dashboard/ HTTP/1.1" 200 345
+WARNING 2026-01-06 14:48:58,659 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:48:58,660 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-06 14:49:06,512 views Dashboard accessed by user: nikhil
+INFO 2026-01-06 14:49:06,514 log "GET /dashboard/ HTTP/1.1" 200 345
+WARNING 2026-01-06 14:49:06,580 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:49:06,581 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-06 14:49:08,672 views User logged out: nikhil
+INFO 2026-01-06 14:49:08,680 log "POST /logout/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:49:08,689 log "GET /login/ HTTP/1.1" 200 535
+WARNING 2026-01-06 14:49:08,756 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:49:08,757 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-06 14:49:12,084 log "GET /login/ HTTP/1.1" 200 460
+WARNING 2026-01-06 14:49:12,139 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:49:12,140 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-06 14:49:26,976 views User logged in successfully: nikhil
+INFO 2026-01-06 14:49:26,982 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:49:26,991 views Dashboard accessed by user: nikhil
+INFO 2026-01-06 14:49:26,992 log "GET /dashboard/ HTTP/1.1" 200 345
+WARNING 2026-01-06 14:49:27,068 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:49:27,071 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-06 14:50:41,385 views User logged out: nikhil
+INFO 2026-01-06 14:50:41,397 log "POST /logout/ HTTP/1.1" 302 0
+INFO 2026-01-06 14:50:41,404 log "GET /login/ HTTP/1.1" 200 535
+WARNING 2026-01-06 14:50:41,487 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:50:41,488 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-06 14:50:54,554 log "GET /login/ HTTP/1.1" 200 460
+WARNING 2026-01-06 14:50:54,606 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-06 14:50:54,608 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-07 10:09:53,372 autoreload Watching for file changes with StatReloader
+WARNING 2026-01-07 10:09:59,005 log Not Found: /
+WARNING 2026-01-07 10:09:59,006 log "GET / HTTP/1.1" 404 3189
+WARNING 2026-01-07 10:09:59,155 log Not Found: /favicon.ico
+WARNING 2026-01-07 10:09:59,156 log "GET /favicon.ico HTTP/1.1" 404 3240
+WARNING 2026-01-07 10:10:04,302 views Unauthenticated user tried to access dashboard
+INFO 2026-01-07 10:10:04,309 log "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:10:04,331 log "GET /login/ HTTP/1.1" 200 534
+INFO 2026-01-07 10:10:17,670 views User logged in successfully: nikhil
+INFO 2026-01-07 10:10:17,675 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:10:17,685 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:10:17,687 log "GET /dashboard/ HTTP/1.1" 200 345
+INFO 2026-01-07 10:15:33,254 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\models.py changed, reloading.
+INFO 2026-01-07 10:15:34,385 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:15:37,859 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\models.py changed, reloading.
+INFO 2026-01-07 10:15:38,684 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:16:00,274 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\models.py changed, reloading.
+INFO 2026-01-07 10:16:01,002 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:16:04,388 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\models.py changed, reloading.
+INFO 2026-01-07 10:16:05,050 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:18:46,561 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:18:47,461 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:18:47,576 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3595
+INFO 2026-01-07 10:18:47,837 log "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-01-07 10:18:47,837 log "GET /static/admin/css/responsive.css HTTP/1.1" 200 16194
+INFO 2026-01-07 10:18:47,859 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-01-07 10:18:47,861 log "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-01-07 10:18:47,869 log "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-01-07 10:18:47,872 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-01-07 10:18:47,878 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-01-07 10:19:34,355 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:19:41,873 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:19:42,014 log "GET /admin/ HTTP/1.1" 200 7054
+INFO 2026-01-07 10:19:42,097 log "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-01-07 10:19:42,121 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-01-07 10:19:42,122 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-01-07 10:19:44,954 log "GET /admin/my_app/todo/ HTTP/1.1" 200 10136
+INFO 2026-01-07 10:19:45,256 log "GET /static/admin/css/changelists.css HTTP/1.1" 200 7501
+INFO 2026-01-07 10:19:45,277 log "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-01-07 10:19:45,295 log "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-01-07 10:19:45,302 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:19:45,303 log "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-01-07 10:19:45,313 log "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-01-07 10:19:45,323 log "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-01-07 10:19:45,338 log "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-01-07 10:19:45,343 log "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-01-07 10:19:45,372 log "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-01-07 10:19:45,409 log "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-01-07 10:19:45,464 log "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-01-07 10:19:45,506 log "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-01-07 10:19:45,506 log "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-01-07 10:19:50,988 log "GET /admin/my_app/todo/add/ HTTP/1.1" 200 12845
+INFO 2026-01-07 10:19:51,024 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:19:51,034 log "GET /static/admin/css/forms.css HTTP/1.1" 200 8844
+INFO 2026-01-07 10:19:51,045 log "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-01-07 10:19:51,055 log "GET /static/admin/js/calendar.js HTTP/1.1" 200 9159
+INFO 2026-01-07 10:19:51,055 log "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19698
+INFO 2026-01-07 10:19:51,061 log "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-01-07 10:19:51,090 log "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-01-07 10:19:51,155 log "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1112
+INFO 2026-01-07 10:20:15,999 log "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1320
+INFO 2026-01-07 10:20:29,236 log "POST /admin/my_app/todo/add/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:20:29,274 log "GET /admin/my_app/todo/ HTTP/1.1" 200 12490
+INFO 2026-01-07 10:20:29,312 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:20:29,325 log "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 645
+INFO 2026-01-07 10:20:29,344 log "GET /static/admin/img/icon-yes-dark.svg HTTP/1.1" 200 558
+INFO 2026-01-07 10:20:38,050 log "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-01-07 10:20:41,233 log "GET /admin/my_app/todo/1/change/ HTTP/1.1" 200 13146
+INFO 2026-01-07 10:20:41,263 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:20:45,252 log "GET /admin/my_app/todo/ HTTP/1.1" 200 12284
+INFO 2026-01-07 10:21:05,883 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\admin.py changed, reloading.
+INFO 2026-01-07 10:21:06,747 autoreload Watching for file changes with StatReloader
+WARNING 2026-01-07 10:21:07,368 log Not Found: /admin/my_app/todo/
+WARNING 2026-01-07 10:21:07,369 log "GET /admin/my_app/todo/ HTTP/1.1" 404 5435
+INFO 2026-01-07 10:21:17,161 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\admin.py changed, reloading.
+INFO 2026-01-07 10:21:17,989 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:21:18,518 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:21:18,536 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:21:24,044 log "GET /admin/my_app/todo/add/ HTTP/1.1" 200 12845
+INFO 2026-01-07 10:21:24,073 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:21:27,878 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:21:33,312 log "POST /admin/my_app/todo/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:21:33,326 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9876
+INFO 2026-01-07 10:21:33,356 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:21:33,434 log "GET /static/admin/img/icon-alert-dark.svg HTTP/1.1" 200 684
+WARNING 2026-01-07 10:21:46,432 log Not Found: /
+WARNING 2026-01-07 10:21:46,433 log "GET / HTTP/1.1" 404 3189
+INFO 2026-01-07 10:21:55,668 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\admin.py changed, reloading.
+INFO 2026-01-07 10:21:56,370 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:22:15,898 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\admin.py changed, reloading.
+INFO 2026-01-07 10:22:16,623 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:22:18,018 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:22:18,753 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:22:48,414 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:22:49,346 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:22:57,777 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:22:58,497 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:23:15,053 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:23:16,062 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:23:41,860 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:41,900 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,033 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,038 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,209 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,212 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,366 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,368 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,482 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,484 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,591 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,595 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,734 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,738 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:45,858 views Dashboard viewed by admin
+INFO 2026-01-07 10:23:45,861 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:23:57,204 log "GET /admin/ HTTP/1.1" 200 7439
+INFO 2026-01-07 10:23:59,114 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:23:59,153 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:24:00,240 log "GET /admin/my_app/todo/1/change/ HTTP/1.1" 200 13146
+INFO 2026-01-07 10:24:00,270 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:24:16,108 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:16,112 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:29,300 log "POST /admin/my_app/todo/1/change/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:24:29,313 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9891
+INFO 2026-01-07 10:24:29,350 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:24:33,623 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:33,627 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:33,978 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:33,983 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:34,127 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:34,131 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:34,344 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:34,348 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:34,452 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:34,454 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:34,551 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:34,553 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:34,653 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:34,655 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:34,786 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:34,787 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:37,250 log "GET /admin/my_app/todo/1/change/ HTTP/1.1" 200 13154
+INFO 2026-01-07 10:24:37,282 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:24:47,108 log "POST /admin/my_app/todo/1/change/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:24:47,122 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9891
+INFO 2026-01-07 10:24:47,333 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:24:50,650 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:50,653 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:51,307 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:51,311 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:51,483 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:51,488 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:51,613 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:51,616 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:51,710 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:51,713 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:51,825 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:51,827 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:51,930 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:51,934 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:52,047 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:52,050 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:52,168 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:52,172 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:52,265 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:52,269 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:52,377 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:52,379 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:52,499 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:52,502 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:52,601 views Dashboard viewed by admin
+INFO 2026-01-07 10:24:52,605 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:24:55,446 log "GET /admin/my_app/todo/1/change/ HTTP/1.1" 200 13154
+INFO 2026-01-07 10:24:55,473 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:25:09,515 log "POST /admin/my_app/todo/1/change/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:25:09,532 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9891
+INFO 2026-01-07 10:25:09,578 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:25:11,828 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:11,831 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:12,171 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:12,174 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:12,317 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:12,322 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:12,421 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:12,426 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:12,537 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:12,541 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:12,652 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:12,657 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:12,751 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:12,758 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:14,267 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:25:14,293 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:25:15,338 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:25:15,372 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:25:16,689 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:16,694 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:17,143 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:17,146 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:17,340 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:17,343 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:17,484 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:17,487 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:17,597 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:17,599 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:43,421 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:25:43,485 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:25:49,259 views Dashboard viewed by admin
+INFO 2026-01-07 10:25:49,263 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:25:51,824 views User logged out: admin
+INFO 2026-01-07 10:25:51,832 log "POST /logout/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:25:51,857 log "GET /login/ HTTP/1.1" 200 535
+WARNING 2026-01-07 10:25:58,701 views Failed login attempt for username: nikhil
+INFO 2026-01-07 10:25:58,702 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:25:58,707 log "GET /login/ HTTP/1.1" 200 525
+WARNING 2026-01-07 10:26:06,125 views Failed login attempt for username: nikhil
+INFO 2026-01-07 10:26:06,127 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:26:06,131 log "GET /login/ HTTP/1.1" 200 525
+INFO 2026-01-07 10:26:14,920 log "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:26:14,924 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:26:14,972 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-01-07 10:26:18,166 log "GET /login/ HTTP/1.1" 200 460
+INFO 2026-01-07 10:26:26,726 views User logged in successfully: nikhil
+INFO 2026-01-07 10:26:26,732 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:26:26,748 views Dashboard viewed by nikhil
+INFO 2026-01-07 10:26:26,751 log "GET /dashboard/ HTTP/1.1" 200 489
+INFO 2026-01-07 10:26:31,027 views Dashboard viewed by nikhil
+INFO 2026-01-07 10:26:31,030 log "GET /dashboard/ HTTP/1.1" 200 489
+WARNING 2026-01-07 10:26:40,752 log Forbidden (CSRF token from POST incorrect.): /admin/login/
+WARNING 2026-01-07 10:26:40,753 log "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2503
+WARNING 2026-01-07 10:26:47,252 log Forbidden (CSRF token from POST incorrect.): /admin/login/
+WARNING 2026-01-07 10:26:47,253 log "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2503
+INFO 2026-01-07 10:26:48,585 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3595
+INFO 2026-01-07 10:26:57,345 log "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:26:57,356 log "GET /admin/ HTTP/1.1" 200 8510
+INFO 2026-01-07 10:26:59,993 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9683
+INFO 2026-01-07 10:27:00,029 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:27:01,111 log "GET /admin/my_app/todo/1/change/ HTTP/1.1" 200 13154
+INFO 2026-01-07 10:27:01,137 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:27:07,516 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:07,520 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:07,811 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:07,814 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:07,957 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:07,958 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:08,065 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:08,068 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:08,157 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:08,159 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:08,291 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:08,293 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:19,206 log "POST /admin/my_app/todo/1/change/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:27:19,221 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9888
+INFO 2026-01-07 10:27:19,265 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:27:21,621 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:21,624 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:21,889 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:21,892 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:22,034 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:22,037 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:22,130 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:22,132 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:22,253 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:22,255 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:22,353 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:22,356 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:22,465 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:22,467 log "GET /dashboard/ HTTP/1.1" 200 488
+INFO 2026-01-07 10:27:25,072 log "GET /admin/my_app/todo/1/change/ HTTP/1.1" 200 13151
+INFO 2026-01-07 10:27:25,101 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:27:31,918 log "POST /admin/my_app/todo/1/change/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:27:31,937 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9888
+INFO 2026-01-07 10:27:31,977 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:27:33,566 log "GET /admin/my_app/todo/ HTTP/1.1" 200 9681
+INFO 2026-01-07 10:27:33,588 log "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-01-07 10:27:35,795 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:35,799 log "GET /dashboard/ HTTP/1.1" 200 503
+INFO 2026-01-07 10:27:36,175 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:36,180 log "GET /dashboard/ HTTP/1.1" 200 503
+INFO 2026-01-07 10:27:36,486 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:36,489 log "GET /dashboard/ HTTP/1.1" 200 503
+INFO 2026-01-07 10:27:36,649 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:36,653 log "GET /dashboard/ HTTP/1.1" 200 503
+INFO 2026-01-07 10:27:36,743 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:36,745 log "GET /dashboard/ HTTP/1.1" 200 503
+INFO 2026-01-07 10:27:36,869 views Dashboard viewed by admin
+INFO 2026-01-07 10:27:36,873 log "GET /dashboard/ HTTP/1.1" 200 503
+INFO 2026-01-07 10:30:19,046 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\admin.py changed, reloading.
+INFO 2026-01-07 10:30:19,735 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:30:26,180 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:30:26,967 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:30:37,511 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:30:38,303 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:30:47,747 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\models.py changed, reloading.
+INFO 2026-01-07 10:30:48,519 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:31:26,056 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:31:28,526 views Dashboard accessed by user: admin
+INFO 2026-01-07 10:31:28,537 log "GET /dashboard/ HTTP/1.1" 200 345
+WARNING 2026-01-07 10:31:31,749 log Not Found: /admin/my_app/todo/
+WARNING 2026-01-07 10:31:31,750 log "GET /admin/my_app/todo/ HTTP/1.1" 404 5435
+INFO 2026-01-07 10:31:36,544 log "GET /admin HTTP/1.1" 301 0
+INFO 2026-01-07 10:31:36,608 log "GET /admin/ HTTP/1.1" 200 7931
+WARNING 2026-01-07 10:31:48,237 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-07 10:31:48,238 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-07 10:32:19,157 log "GET /admin/ HTTP/1.1" 200 7931
+WARNING 2026-01-07 10:32:19,200 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-07 10:32:19,202 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3351
+INFO 2026-01-07 10:32:32,006 log "GET /admin/ HTTP/1.1" 200 7931
+INFO 2026-01-07 10:33:39,205 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\models.py changed, reloading.
+INFO 2026-01-07 10:33:40,148 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:34:06,646 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:35:43,890 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:35:44,902 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:35:53,439 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:35:54,256 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:36:15,056 views Dashboard accessed by user: admin
+INFO 2026-01-07 10:36:15,057 views 0 notes fetched for user admin
+INFO 2026-01-07 10:36:15,069 log "GET /dashboard/ HTTP/1.1" 200 609
+INFO 2026-01-07 10:36:34,768 views Authenticated user admin tried to access login page
+INFO 2026-01-07 10:36:34,769 log "GET /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:36:34,777 views Dashboard accessed by user: admin
+INFO 2026-01-07 10:36:34,780 views 0 notes fetched for user admin
+INFO 2026-01-07 10:36:34,784 log "GET /dashboard/ HTTP/1.1" 200 609
+INFO 2026-01-07 10:36:37,412 views User logged out: admin
+INFO 2026-01-07 10:36:37,421 log "GET /logout/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:36:37,426 log "GET /login/ HTTP/1.1" 200 535
+INFO 2026-01-07 10:36:39,906 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:36:39,942 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-01-07 10:36:40,672 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-01-07 10:36:40,845 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-01-07 10:36:41,047 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-01-07 10:36:58,956 views User logged in successfully: nikhil
+INFO 2026-01-07 10:36:58,963 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:36:58,972 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:36:58,973 views 0 notes fetched for user nikhil
+INFO 2026-01-07 10:36:58,975 log "GET /dashboard/ HTTP/1.1" 200 610
+INFO 2026-01-07 10:37:16,642 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:37:16,651 views Note created by user nikhil: Gym
+INFO 2026-01-07 10:37:16,654 log "POST /dashboard/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:37:16,664 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:37:16,665 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:37:16,667 log "GET /dashboard/ HTTP/1.1" 200 809
+INFO 2026-01-07 10:37:32,352 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:37:32,354 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:37:32,356 log "GET /dashboard/ HTTP/1.1" 200 715
+INFO 2026-01-07 10:37:39,043 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:37:39,044 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:37:39,047 log "GET /dashboard/ HTTP/1.1" 200 715
+INFO 2026-01-07 10:38:44,058 views Dashboard accessed by user: nikhil
+WARNING 2026-01-07 10:38:44,059 views User nikhil tried to add note with missing fields
+INFO 2026-01-07 10:38:44,060 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:38:44,061 log "POST /dashboard/ HTTP/1.1" 200 809
+INFO 2026-01-07 10:39:49,148 views Dashboard accessed by user: nikhil
+WARNING 2026-01-07 10:39:49,148 views User nikhil tried to add note with missing fields
+INFO 2026-01-07 10:39:49,150 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:39:49,152 log "POST /dashboard/ HTTP/1.1" 200 809
+INFO 2026-01-07 10:39:50,702 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:39:50,704 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:39:50,708 log "GET /dashboard/ HTTP/1.1" 200 715
+INFO 2026-01-07 10:40:13,947 views User logged out: nikhil
+INFO 2026-01-07 10:40:13,956 log "GET /logout/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:40:13,961 log "GET /login/ HTTP/1.1" 200 535
+WARNING 2026-01-07 10:40:18,845 log Not Found: /
+WARNING 2026-01-07 10:40:18,846 log "GET / HTTP/1.1" 404 3189
+INFO 2026-01-07 10:40:22,205 log "GET /login/ HTTP/1.1" 200 460
+INFO 2026-01-07 10:40:31,125 views User logged in successfully: nikhil
+INFO 2026-01-07 10:40:31,130 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:40:31,139 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:40:31,140 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:40:31,142 log "GET /dashboard/ HTTP/1.1" 200 715
+WARNING 2026-01-07 10:40:42,259 log Not Found: /
+WARNING 2026-01-07 10:40:42,260 log "GET / HTTP/1.1" 404 3189
+INFO 2026-01-07 10:40:47,277 views Authenticated user nikhil tried to access login page
+INFO 2026-01-07 10:40:47,278 log "GET /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:40:47,282 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:40:47,284 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:40:47,287 log "GET /dashboard/ HTTP/1.1" 200 715
+INFO 2026-01-07 10:40:50,354 views User logged out: nikhil
+INFO 2026-01-07 10:40:50,362 log "GET /logout/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:40:50,369 log "GET /login/ HTTP/1.1" 200 535
+WARNING 2026-01-07 10:40:59,228 views Failed login attempt for username: krutik
+INFO 2026-01-07 10:40:59,229 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:40:59,234 log "GET /login/ HTTP/1.1" 200 525
+WARNING 2026-01-07 10:41:07,842 views Failed login attempt for username: krutik
+INFO 2026-01-07 10:41:07,843 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:41:07,847 log "GET /login/ HTTP/1.1" 200 525
+INFO 2026-01-07 10:41:15,129 log "GET /register/ HTTP/1.1" 200 629
+INFO 2026-01-07 10:41:38,327 views New user registered successfully: krutik
+INFO 2026-01-07 10:41:38,328 log "POST /register/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:41:38,332 log "GET /login/ HTTP/1.1" 200 535
+INFO 2026-01-07 10:41:51,979 views User logged in successfully: krutik
+INFO 2026-01-07 10:41:51,985 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:41:51,995 views Dashboard accessed by user: krutik
+INFO 2026-01-07 10:41:51,997 views 0 notes fetched for user krutik
+INFO 2026-01-07 10:41:51,998 log "GET /dashboard/ HTTP/1.1" 200 610
+INFO 2026-01-07 10:41:57,224 views User logged out: krutik
+INFO 2026-01-07 10:41:57,232 log "GET /logout/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:41:57,242 log "GET /login/ HTTP/1.1" 200 535
+INFO 2026-01-07 10:42:09,052 views User logged in successfully: nikhil
+INFO 2026-01-07 10:42:09,057 log "POST /login/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:42:09,067 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:42:09,068 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:42:09,070 log "GET /dashboard/ HTTP/1.1" 200 715
+INFO 2026-01-07 10:45:00,639 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:45:00,641 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:45:00,644 log "GET /dashboard/ HTTP/1.1" 200 742
+INFO 2026-01-07 10:45:01,360 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:45:01,362 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:45:01,363 log "GET /dashboard/ HTTP/1.1" 200 742
+INFO 2026-01-07 10:45:16,741 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:45:16,743 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:45:16,748 log "GET /dashboard/ HTTP/1.1" 200 841
+INFO 2026-01-07 10:47:18,296 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:47:18,298 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:47:18,301 log "GET /dashboard/ HTTP/1.1" 200 854
+INFO 2026-01-07 10:48:19,330 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:48:19,332 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:48:19,336 log "GET /dashboard/ HTTP/1.1" 200 924
+INFO 2026-01-07 10:48:19,529 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:48:19,530 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:48:19,534 log "GET /dashboard/ HTTP/1.1" 200 924
+INFO 2026-01-07 10:48:19,644 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:48:19,646 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:48:19,649 log "GET /dashboard/ HTTP/1.1" 200 924
+INFO 2026-01-07 10:48:19,737 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:48:19,738 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:48:19,741 log "GET /dashboard/ HTTP/1.1" 200 924
+INFO 2026-01-07 10:48:19,853 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:48:19,857 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:48:19,862 log "GET /dashboard/ HTTP/1.1" 200 924
+INFO 2026-01-07 10:49:22,701 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:49:23,474 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:49:35,961 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:49:36,695 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:49:46,148 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:49:46,927 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:50:13,591 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-07 10:50:14,265 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:50:23,489 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-07 10:50:24,081 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:51:36,000 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:51:36,001 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:51:36,035 log "GET /dashboard/ HTTP/1.1" 200 1160
+INFO 2026-01-07 10:51:41,675 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:51:41,685 views Note created by user nikhil: cdwcc
+INFO 2026-01-07 10:51:41,687 log "POST /dashboard/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:51:41,695 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:51:41,696 views 2 notes fetched for user nikhil
+INFO 2026-01-07 10:51:41,698 log "GET /dashboard/ HTTP/1.1" 200 1592
+INFO 2026-01-07 10:51:43,612 views User nikhil deleted note: cdwcc
+INFO 2026-01-07 10:51:43,620 log "POST /delete-note/2/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:51:43,628 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:51:43,630 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:51:43,634 log "GET /dashboard/ HTTP/1.1" 200 1258
+INFO 2026-01-07 10:52:03,881 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:52:03,883 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:52:03,888 log "GET /dashboard/ HTTP/1.1" 200 1160
+INFO 2026-01-07 10:52:45,925 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 10:52:46,869 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:53:01,368 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-07 10:53:02,232 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:53:14,529 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-07 10:53:15,208 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:53:25,440 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\urls.py changed, reloading.
+INFO 2026-01-07 10:53:26,285 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 10:54:13,036 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:54:13,038 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:54:13,081 log "GET /dashboard/ HTTP/1.1" 200 1192
+INFO 2026-01-07 10:54:14,624 views Edit page opened by user nikhil for note: Gym
+INFO 2026-01-07 10:54:14,627 log "GET /edit-note/1/ HTTP/1.1" 200 491
+INFO 2026-01-07 10:54:23,017 views User nikhil updated note: Gym
+INFO 2026-01-07 10:54:23,019 log "POST /edit-note/1/ HTTP/1.1" 302 0
+INFO 2026-01-07 10:54:23,029 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 10:54:23,031 views 1 notes fetched for user nikhil
+INFO 2026-01-07 10:54:23,033 log "GET /dashboard/ HTTP/1.1" 200 1290
+INFO 2026-01-07 11:00:41,854 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_project\settings.py changed, reloading.
+INFO 2026-01-07 11:00:42,587 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:02:41,004 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:02:41,006 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:02:41,046 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:04:22,743 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:04:26,746 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:04:26,747 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:04:26,787 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:01,095 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:05:01,098 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:05:01,102 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:01,282 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:05:01,283 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:05:01,286 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:01,372 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:05:01,374 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:05:01,376 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:01,493 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:05:01,494 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:05:01,495 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:01,587 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:05:01,588 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:05:01,591 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:02,869 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:05:02,871 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:05:02,875 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:05:50,545 log "GET /static/js/main.js HTTP/1.1" 200 189
+INFO 2026-01-07 11:05:52,869 log "GET /static/js/main.js HTTP/1.1" 304 0
+WARNING 2026-01-07 11:05:58,830 log Not Found: /
+WARNING 2026-01-07 11:05:58,831 log "GET / HTTP/1.1" 404 3755
+INFO 2026-01-07 11:06:00,140 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:06:00,142 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:06:00,146 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:06:01,725 views Dashboard accessed by user: nikhil
+INFO 2026-01-07 11:06:01,726 views 1 notes fetched for user nikhil
+INFO 2026-01-07 11:06:01,729 log "GET /dashboard/ HTTP/1.1" 200 1140
+INFO 2026-01-07 11:06:14,398 views Edit page opened by user nikhil for note: Gym
+INFO 2026-01-07 11:06:14,402 log "GET /edit-note/1/ HTTP/1.1" 200 626
+INFO 2026-01-07 11:06:18,225 views Edit page opened by user nikhil for note: Gym
+INFO 2026-01-07 11:06:18,227 log "GET /edit-note/1/ HTTP/1.1" 200 626
+INFO 2026-01-07 11:06:18,252 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 11:08:38,835 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:08:39,648 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:11:16,568 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:11:17,406 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:16:02,627 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:16:03,597 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:17:04,509 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:17:05,237 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:17:13,626 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:17:14,371 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:19:33,045 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:19:33,774 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:21:59,934 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:00,001 log "GET /static/js/main.js HTTP/1.1" 200 4193
+INFO 2026-01-07 11:22:00,335 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:00,545 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:00,752 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:00,881 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:00,994 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:01,115 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:01,226 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:01,342 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:01,460 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:01,555 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:01,673 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:06,369 views Note created by nikhil
+INFO 2026-01-07 11:22:06,370 log "POST /dashboard/ HTTP/1.1" 200 111
+INFO 2026-01-07 11:22:14,163 views Note deleted by nikhil
+INFO 2026-01-07 11:22:14,164 log "POST /delete-note/3/ HTTP/1.1" 200 17
+INFO 2026-01-07 11:22:21,522 views Note created by nikhil
+INFO 2026-01-07 11:22:21,523 log "POST /dashboard/ HTTP/1.1" 200 109
+INFO 2026-01-07 11:22:24,471 views Edit page opened by user nikhil for note: nnb
+INFO 2026-01-07 11:22:24,473 log "GET /edit-note/4/ HTTP/1.1" 200 613
+INFO 2026-01-07 11:22:24,500 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 11:22:32,031 views User nikhil updated note: nnbvrtr
+INFO 2026-01-07 11:22:32,035 log "POST /edit-note/4/ HTTP/1.1" 302 0
+INFO 2026-01-07 11:22:32,048 log "GET /dashboard/ HTTP/1.1" 200 1677
+INFO 2026-01-07 11:22:32,077 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 11:22:45,580 views Note deleted by nikhil
+INFO 2026-01-07 11:22:45,581 log "POST /delete-note/4/ HTTP/1.1" 200 17
+WARNING 2026-01-07 11:22:45,593 log Not Found: /delete-note/4/
+WARNING 2026-01-07 11:22:45,593 log "POST /delete-note/4/ HTTP/1.1" 404 3712
+WARNING 2026-01-07 11:22:53,366 log Not Found: /
+WARNING 2026-01-07 11:22:53,366 log "GET / HTTP/1.1" 404 3755
+INFO 2026-01-07 11:22:56,545 log "GET /dashboard/ HTTP/1.1" 200 1196
+INFO 2026-01-07 11:22:56,572 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 11:23:01,950 views Note created by nikhil
+INFO 2026-01-07 11:23:01,951 log "POST /dashboard/ HTTP/1.1" 200 117
+INFO 2026-01-07 11:23:05,813 views Note deleted by nikhil
+INFO 2026-01-07 11:23:05,815 log "POST /delete-note/5/ HTTP/1.1" 200 17
+INFO 2026-01-07 11:23:12,977 views Note created by nikhil
+INFO 2026-01-07 11:23:12,978 log "POST /dashboard/ HTTP/1.1" 200 116
+INFO 2026-01-07 11:23:14,379 views Edit page opened by user nikhil for note: vrvrvr
+INFO 2026-01-07 11:23:14,381 log "GET /edit-note/6/ HTTP/1.1" 200 620
+INFO 2026-01-07 11:23:14,407 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 11:23:17,189 views User nikhil updated note: vrvrvrvrrt
+INFO 2026-01-07 11:23:17,190 log "POST /edit-note/6/ HTTP/1.1" 302 0
+INFO 2026-01-07 11:23:17,203 log "GET /dashboard/ HTTP/1.1" 200 1684
+INFO 2026-01-07 11:23:23,476 views Note deleted by nikhil
+INFO 2026-01-07 11:23:23,477 log "POST /delete-note/6/ HTTP/1.1" 200 17
+WARNING 2026-01-07 11:23:23,491 log Not Found: /delete-note/6/
+WARNING 2026-01-07 11:23:23,493 log "POST /delete-note/6/ HTTP/1.1" 404 3712
+INFO 2026-01-07 11:23:45,772 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:23:46,421 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 11:23:48,740 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 11:23:49,355 autoreload Watching for file changes with StatReloader
+WARNING 2026-01-07 11:29:15,625 log Not Found: /delete-note/6/
+WARNING 2026-01-07 11:29:15,626 log "POST /delete-note/6/ HTTP/1.1" 404 3712
+ERROR 2026-01-07 11:29:17,170 log Internal Server Error: /delete-note/6/
+Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\env\Lib\site-packages\django\core\handlers\base.py", line 205, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\env\Lib\site-packages\django\core\handlers\base.py", line 333, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view my_app.views.delete_note_view didn't return an HttpResponse object. It returned None instead.
+ERROR 2026-01-07 11:29:17,173 log "GET /delete-note/6/ HTTP/1.1" 500 71812
+WARNING 2026-01-07 11:29:22,683 log Not Found: /
+WARNING 2026-01-07 11:29:22,684 log "GET / HTTP/1.1" 404 3755
+INFO 2026-01-07 11:29:25,449 log "GET /dashboard/ HTTP/1.1" 200 1050
+INFO 2026-01-07 11:29:25,472 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 11:29:32,681 views Note created by nikhil
+INFO 2026-01-07 11:29:32,682 log "POST /dashboard/ HTTP/1.1" 200 107
+INFO 2026-01-07 11:29:37,299 views Note deleted by nikhil
+INFO 2026-01-07 11:29:37,300 log "POST /delete-note/7/ HTTP/1.1" 200 17
+INFO 2026-01-07 11:29:44,366 views Note created by nikhil
+INFO 2026-01-07 11:29:44,367 log "POST /dashboard/ HTTP/1.1" 200 108
+INFO 2026-01-07 11:29:46,716 views Edit page opened by user nikhil for note: vfev
+INFO 2026-01-07 11:29:46,719 log "GET /edit-note/8/ HTTP/1.1" 200 612
+INFO 2026-01-07 11:29:50,413 views User nikhil updated note: vfevever
+INFO 2026-01-07 11:29:50,416 log "POST /edit-note/8/ HTTP/1.1" 302 0
+INFO 2026-01-07 11:29:50,426 log "GET /dashboard/ HTTP/1.1" 200 1382
+INFO 2026-01-07 11:29:56,567 views Note deleted by nikhil
+INFO 2026-01-07 11:29:56,568 log "POST /delete-note/8/ HTTP/1.1" 200 17
+INFO 2026-01-07 11:30:00,288 log "GET /dashboard/ HTTP/1.1" 200 1050
+INFO 2026-01-07 12:44:47,741 autoreload Watching for file changes with StatReloader
+WARNING 2026-01-07 12:44:49,297 log Not Found: /
+WARNING 2026-01-07 12:44:49,298 log "GET / HTTP/1.1" 404 3755
+WARNING 2026-01-07 12:44:49,407 log Not Found: /favicon.ico
+WARNING 2026-01-07 12:44:49,417 log "GET /favicon.ico HTTP/1.1" 404 3806
+INFO 2026-01-07 12:45:03,171 log "GET /dashboard/ HTTP/1.1" 200 1050
+INFO 2026-01-07 12:45:03,189 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 12:45:12,251 views Note created by nikhil
+INFO 2026-01-07 12:45:12,252 log "POST /dashboard/ HTTP/1.1" 200 112
+INFO 2026-01-07 12:45:13,770 views Edit page opened by user nikhil for note: cdcds
+INFO 2026-01-07 12:45:13,773 log "GET /edit-note/9/ HTTP/1.1" 200 643
+INFO 2026-01-07 12:45:15,237 views User nikhil updated note: cdcds
+INFO 2026-01-07 12:45:15,238 log "POST /edit-note/9/ HTTP/1.1" 302 0
+INFO 2026-01-07 12:45:15,248 log "GET /dashboard/ HTTP/1.1" 200 1382
+INFO 2026-01-07 12:45:21,688 views Note deleted by nikhil
+INFO 2026-01-07 12:45:21,689 log "POST /delete-note/9/ HTTP/1.1" 200 17
+WARNING 2026-01-07 12:45:24,031 views Missing fields while adding note
+INFO 2026-01-07 12:45:24,032 log "POST /dashboard/ HTTP/1.1" 200 56
+INFO 2026-01-07 12:45:30,993 views Note created by nikhil
+INFO 2026-01-07 12:45:30,993 log "POST /dashboard/ HTTP/1.1" 200 113
+INFO 2026-01-07 12:45:34,406 views Edit page opened by user nikhil for note: csdc
+INFO 2026-01-07 12:45:34,407 log "GET /edit-note/10/ HTTP/1.1" 200 643
+INFO 2026-01-07 12:45:38,645 views User nikhil updated note: csdccdcdc
+INFO 2026-01-07 12:45:38,646 log "POST /edit-note/10/ HTTP/1.1" 302 0
+INFO 2026-01-07 12:45:38,654 log "GET /dashboard/ HTTP/1.1" 200 1396
+INFO 2026-01-07 12:45:48,790 views Note deleted by nikhil
+INFO 2026-01-07 12:45:48,792 log "POST /delete-note/10/ HTTP/1.1" 200 17
+WARNING 2026-01-07 12:45:50,533 views Missing fields while adding note
+INFO 2026-01-07 12:45:50,534 log "POST /dashboard/ HTTP/1.1" 200 56
+INFO 2026-01-07 12:45:56,769 views Note created by nikhil
+INFO 2026-01-07 12:45:56,770 log "POST /dashboard/ HTTP/1.1" 200 118
+INFO 2026-01-07 12:45:59,572 views Edit page opened by user nikhil for note: cdscdsc
+INFO 2026-01-07 12:45:59,573 log "GET /edit-note/11/ HTTP/1.1" 200 648
+INFO 2026-01-07 12:46:03,580 views User nikhil updated note: cdscdsccc
+INFO 2026-01-07 12:46:03,581 log "POST /edit-note/11/ HTTP/1.1" 302 0
+INFO 2026-01-07 12:46:03,591 log "GET /dashboard/ HTTP/1.1" 200 1392
+WARNING 2026-01-07 12:46:19,249 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-07 12:46:19,250 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3917
+INFO 2026-01-07 12:46:39,601 views Note created by nikhil
+INFO 2026-01-07 12:46:39,602 log "POST /dashboard/ HTTP/1.1" 200 108
+WARNING 2026-01-07 12:47:06,897 views Missing fields while adding note
+INFO 2026-01-07 12:47:06,898 log "POST /dashboard/ HTTP/1.1" 200 56
+INFO 2026-01-07 12:58:29,301 autoreload C:\Users\admin\Desktop\Practice Folder\DjangoTestProject\my_project\my_app\views.py changed, reloading.
+INFO 2026-01-07 12:58:30,138 autoreload Watching for file changes with StatReloader
+INFO 2026-01-07 12:58:53,576 log "GET /dashboard/ HTTP/1.1" 200 1526
+WARNING 2026-01-07 12:58:53,640 log Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-01-07 12:58:53,641 log "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3917
+INFO 2026-01-07 12:58:53,720 log "GET /static/js/main.js HTTP/1.1" 200 4034
+INFO 2026-01-07 12:59:01,333 log "GET /edit-note/12/ HTTP/1.1" 200 660
+INFO 2026-01-07 12:59:01,357 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 12:59:03,635 views User nikhil updated note: sx
+INFO 2026-01-07 12:59:03,636 log "POST /edit-note/12/ HTTP/1.1" 200 74
+INFO 2026-01-07 12:59:06,444 log "GET /dashboard/ HTTP/1.1" 200 1526
+INFO 2026-01-07 12:59:06,468 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 12:59:10,417 log "GET /edit-note/12/ HTTP/1.1" 200 660
+INFO 2026-01-07 12:59:10,439 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 12:59:13,855 views User nikhil updated note: sxdqwwd
+INFO 2026-01-07 12:59:13,855 log "POST /edit-note/12/ HTTP/1.1" 200 79
+INFO 2026-01-07 12:59:16,795 log "GET /dashboard/ HTTP/1.1" 200 1531
+INFO 2026-01-07 12:59:16,821 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 12:59:25,871 log "GET /edit-note/12/ HTTP/1.1" 200 665
+INFO 2026-01-07 12:59:25,893 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 12:59:56,148 log "GET /edit-note/12/ HTTP/1.1" 200 665
+INFO 2026-01-07 12:59:56,167 log "GET /static/js/main.js HTTP/1.1" 200 4044
+INFO 2026-01-07 12:59:58,694 views User nikhil updated note: sxdqwwd
+INFO 2026-01-07 12:59:58,694 log "POST /edit-note/12/ HTTP/1.1" 200 79
+WARNING 2026-01-07 13:00:00,172 log Not Found: /edit-note/${noteId}/
+WARNING 2026-01-07 13:00:00,174 log "GET /edit-note/$%7BnoteId%7D/ HTTP/1.1" 404 3837
+INFO 2026-01-07 13:00:10,682 log "GET /edit-note/12/ HTTP/1.1" 200 665
+INFO 2026-01-07 13:00:10,705 log "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2026-01-07 13:00:24,846 log "GET /dashboard/ HTTP/1.1" 200 1531
+INFO 2026-01-07 13:00:24,877 log "GET /static/js/main.js HTTP/1.1" 200 4034

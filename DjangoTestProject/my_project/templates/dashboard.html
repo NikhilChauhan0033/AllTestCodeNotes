@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Welcome {{ request.user.username }}</h2>
+
+{% for message in messages %}
+<p>{{ message }}</p>
+{% endfor %}
+
+<hr>
+
+<h3>Add Daily Note</h3>
+
+<form method="POST" id="noteForm">
+  {% csrf_token %}
+
+  <input type="text" name="title" placeholder="Title"><br><br>
+
+  <textarea name="description" placeholder="Description"></textarea><br><br>
+
+  <button type="submit">Add</button>
+  <button type="button" onclick="clearForm()">Cancel</button>
+</form>
+
+<hr>
+
+<h3>Your Notes</h3>
+
+<div id="notesList">
+{% for note in notes %}
+  <div id="note-{{ note.id }}">
+    <h4>{{ note.title }}</h4>
+    <p>{{ note.description }}</p>
+    <small>{{ note.created_at }}</small>
+
+    <a href="{% url 'edit_note' note.id %}">Edit</a>
+    <button type="button" onclick="deleteNote('{{ note.id }}')">
+      Delete
+    </button>
+  </div>
+  <hr>
+{% empty %}
+  <p>No notes yet</p>
+{% endfor %}
+</div>
+
+
+<a href="{% url 'logout' %}">Logout</a>
+
+{% endblock %}

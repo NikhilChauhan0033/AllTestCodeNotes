@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Edit Note</h2>
+
+{% for message in messages %}
+  <p>{{ message }}</p>
+{% endfor %}
+
+<form method="POST" id="editNoteForm">
+  {% csrf_token %}
+
+  <input type="text" name="title" value="{{ note.title }}" required><br><br>
+
+  <textarea name="description" required>{{ note.description }}</textarea><br><br>
+
+  <button type="submit">Update</button>
+  <button type="button" onclick="clearForm()">Cancel</button>
+</form>
+
+{% endblock %}
