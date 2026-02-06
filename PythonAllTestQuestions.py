@@ -49,7 +49,7 @@ print(rev)
 str1 = input("Enter string to reverse it : ")
 print(str1[::-1])
 
-# Check whether a number is palindrome or not.
+# Check whether a number is palindrome or not. Ex = 121 = Palindrom , 123 is not palindrom
 num = int(input("ENter number to check whether a number is palindrome or not : "))
 
 if str(num) == str(num)[::-1]:
@@ -113,6 +113,8 @@ largestNumber = max(arr)
 print(largestNumber)
 
 # Check if a number is prime or not.
+# *** Means the number is greater than 1 and it is only divisible by 1 and itself ***
+
 num = int(input("Enter number to check prime or not : "))
 
 if num < 2:
@@ -141,6 +143,7 @@ for i in range(1,arr[-1]):
 # 🟡 MEDIUM LEVEL
 
 # Print Fibonacci series using recursion.
+# *** Means Sum of previouse 2  numbers***
 
 def fibonacci(num):
     if num == 0:
@@ -277,6 +280,7 @@ print(sum)
 #  🔵 HARD LEVEL
 
 # Armstrong number
+
 num = int(input("Enter a number: "))
 
 sum = 0
