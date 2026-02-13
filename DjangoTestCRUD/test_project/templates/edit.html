@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Record</title>
+</head>
+
+<body>
+    <h1>Edit Calculation</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <label for="name">Enter Your Name : </label>
+        <input type="text" name="name" id="name" value="{{calculation.name}}" placeholder="Enter Your Name"><br><br>
+        <label for="num1">Enter 1st Number</label>
+        <input type="number" name="num1" id="num1" value="{{calculation.num1}}" placeholder="Enter 1st Number"> <br><br>
+        <label for="num2">Enter 2nd Number</label>
+        <input type="number" name="num2" id="num2" value="{{calculation.num2}}" placeholder="Enter 2nd Number"><br><br>
+
+        <button type="submit">Update</button>
+        <a href="{% url 'index' %}"><button type="button">Cancel</button></a>
+    </form>
+
+</body>
+
+</html>
